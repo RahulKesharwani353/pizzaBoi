@@ -28,7 +28,7 @@ def custom_openapi():
         
         1. First, get your token from the `/auth/login` endpoint
         2. Then, use the token in the Authorize button above
-        3. Enter your token with Bearer prefix (e.g., Bearer your-token-here)
+        3. Enter your token without Bearer prefix
         """,
         version="1.0",
         routes=app.routes,
